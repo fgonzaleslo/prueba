@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Erica+One);
+body{
+    /*background-image: url('./img/fondo.png');*/
+    width: 100%;
+    height: 100%;
+    background-size: 2000px;
+    /*background:"./scr/img/icon.svg";*/
+  }
+
+  #app.tes{
+    height: 400px;
+    width: 400px;
+    margin: 300px;
+  }
+
+  .tes1{
+    height: 500px;
+    width: 500px;
+    margin: 300px;
+  }
+
+  ::selection {
+    background: transparent;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Erica+One);
+/* BODY */
+::selection {
+  background: transparent;
+}
+
+#pozo1 {
+    background-image: './scr/img/tesoro-inca.svg';
+    height: 400px;
+    width: 400px;
+    cursor: default;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    margin: 300px;
+    display: block;
+    
+    -webkit-animation: bounce 1.2s ease infinite alternate;
+    
+    
+    font-size: 80px;
+  
+    text-align: center;
+    line-height: 100px;
+  }
+
+#pozo2 {
+    background-image: './scr/img/pozoAcumulado.svg';
+    height: 400px;
+    width: 400px;
+    cursor: default;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    margin-left: 800px;
+    margin-top: 250px;
+    display: block;
+    
+    -webkit-animation: bounce 1.2s ease infinite alternate;
+    
+    
+    font-size: 80px;
+  
+    text-align: center;
+    line-height: 100px;
+  }
+
+#pozo3 {
+    background-image: './scr/img/pozoAdicional.svg';
+    height: 400px;
+    width: 400px;
+    cursor: default;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    margin-left: 1300px;
+    margin-top: 300px;
+    display: block;
+    
+    -webkit-animation: bounce 1.2s ease infinite alternate;
+    
+    
+    font-size: 80px;
+  
+    text-align: center;
+    line-height: 100px;
+}
+  /* ANIMATION */
+@keyframes bounce {
+    100% {
+      top: -30px;
+      
+    }
+  }
+  
